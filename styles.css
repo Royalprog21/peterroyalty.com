@@ -93,14 +93,13 @@ ul .links{
     font-family: 'Playfair Display', serif;
 }
 .speak .socials{
-    position: absolute;
-    top: 110%;
-    left: 0%;
+    position: relative;
     width: 100%;
     height: 20%;
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
+    margin-top: 15px;
 }
 .speak .socials a{
     text-decoration: none;
