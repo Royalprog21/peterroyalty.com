@@ -56,8 +56,8 @@ ul .links{
 .speak{
     position: absolute;
     width: 80%;
-    height: 80%;
-    top: 15%;
+    height: 90%;
+    top: 10%;
     left: 10%;
     background-color: yellowgreen;
     border-radius: 15px;
@@ -89,7 +89,7 @@ ul .links{
     top: 20%;
     left: 55%;
     width: 40%;
-    height: 60%;
+    height: 70%;
     font-family: 'Playfair Display', serif;
 }
 .speak .socials{
