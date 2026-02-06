@@ -714,7 +714,7 @@ hr{
 }
 @media (max-width: 305px) {
     .speak{
-        height: 130%;
+        height: 135%;
     }
     .speak .socials{
         position: relative;
@@ -734,23 +734,26 @@ hr{
         left: -15%;
     }
 }
+@media (max-width: 290px) {
+    .speak{
+        height: 150%;
+    }
+}
 @media (max-width: 285px) {
     .speak{
-        height: 145%;
+        height: 155%;
     }
     
 }
 @media (max-width: 260px) {
     .speak{
-        height: 150%;
+        height: 170%;
     }
     .changing{
         scale: 0.75;
         position: relative;
         left: -25%;
     }
-}
-@media (max-width: 260px) {
     .changing{
         display: flex;
         flex-direction: column;
@@ -760,6 +763,12 @@ hr{
         right: 0;
         top: 0;
     }
+}
+@media (max-width: 260px) {
+    .speak{
+        height: 180%;
+    }
+
 }
 
 /* ABOUT PAGE RESPONSIVE */
