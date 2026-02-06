@@ -624,7 +624,7 @@ hr{
 }
 @media (max-width: 430px){
     .speak{
-        height: 130%;
+        height: 135%;
     }
     .speak .socials{
         position: relative;
@@ -640,7 +640,7 @@ hr{
 }
 @media (max-width: 410px){
     .speak{
-        height: 130%;
+        height: 135%;
     }
     .speak .socials{
         position: relative;
@@ -691,7 +691,7 @@ hr{
     .speak{
         position: absolute;
         top: 25%;
-        height: 115%;
+        height: 130%;
         margin-bottom: 20px;
     }
     .speak img{
