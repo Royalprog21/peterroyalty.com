@@ -607,7 +607,7 @@ hr{
         object-position: top;
     }
     .speak .intro{
-        top: 45%;
+        top: 40%;
         left: 10%;
         width: 80%;
         height: fit-content;
@@ -641,6 +641,12 @@ hr{
         width: 90%;
         height: 65%;
         object-position: top;
+    }
+    .speak .intro{
+        top: 37%;
+        left: 10%;
+        width: 80%;
+        height: fit-content;
     }
     
 }
