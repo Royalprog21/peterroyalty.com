@@ -566,12 +566,13 @@ hr{
         width: 75%;
         height: 105%;
         top: 15%;
-        margin-bottom: 10%
+        margin-bottom: 10%;
+        overflow: visible;
     }
     .speak .socials{
         position: relative;
         left: 0%;
-        top: 22%;
+        top: 0%;
         display: flex;
         justify-content: flex-start;
         height: auto;
@@ -628,8 +629,8 @@ hr{
     .speak .socials{
         position: relative;
         left: 0%;
-        scale: 0.8;
         width: 100%;
+        flex-wrap: wrap;
     }
 }
 @media (max-width: 410px){
@@ -638,10 +639,10 @@ hr{
     }
     .speak .socials{
         position: relative;
-        left: -15%;
-        scale: 0.7;
-        width: 180%;
-        gap: 10;
+        left: 0%;
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 10px;
     }
     .topHead .links{
         position: absolute;
@@ -668,10 +669,10 @@ hr{
     }
     .speak .socials{
         position: relative;
-        left: -20%;
+        left: 0%;
         top: 0%;
-        /* scale: 0.7; */
-        width: 170%;
+        width: 100%;
+        flex-wrap: wrap;
     }
     .speak{
         position: absolute;
@@ -700,10 +701,11 @@ hr{
         height: 130%;
     }
     .speak .socials{
-        scale: 0.6;
         position: relative;
-        left: -29%;
-        top: -2%;
+        left: 0%;
+        top: 0%;
+        width: 100%;
+        flex-wrap: wrap;
     }
     .changing{
         scale: 0.85;
