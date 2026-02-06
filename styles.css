@@ -101,7 +101,7 @@ ul .links{
     flex-wrap: nowrap;
     gap: 12px;
     margin-top: auto;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
 }
 .speak .socials a{
     text-decoration: none;
